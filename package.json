@@ -17,6 +17,7 @@
     "husky-setup": "npx husky install && npx husky add .husky/pre-commit \"pnpm lint-staged\" && npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'"
   },
   "dependencies": {
+    "@t3-oss/env-nextjs": "^0.11.0",
     "axios": "^1.7.2",
     "lodash-es": "^4.17.21",
     "next": "14.2.5",
