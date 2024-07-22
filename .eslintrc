@@ -48,6 +48,7 @@
     "jsx-a11y/control-has-associated-label": 0,
     "@typescript-eslint/no-use-before-define": 0,
     "arrow-body-style": 0,
+    "no-restricted-syntax": 0,
     "react/jsx-no-useless-fragment": [
       1,
       {
@@ -90,12 +91,12 @@
       },
     ],
 
-    "perfectionist/sort-objects": [
-      "error",
-      {
-        "type": "natural",
-        "order": "asc",
-      },
-    ],
+    // "perfectionist/sort-objects": [
+    //   "error",
+    //   {
+    //     "type": "natural",
+    //     "order": "asc",
+    //   },
+    // ],
   },
 }
