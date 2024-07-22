@@ -3,5 +3,5 @@
 if [ -n "$NO_PREPARE_INSTALL" ] || [ -d ".husky" ]; then
   echo "NO_PREPARE_INSTALL is set or .husky directory exists. Skip setup husky"
 else
-  yarn husky-setup
+  pnpm husky-setup
 fi
