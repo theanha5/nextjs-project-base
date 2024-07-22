@@ -17,9 +17,15 @@
     "husky-setup": "npx husky install && npx husky add .husky/pre-commit \"pnpm lint-staged\" && npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.414.0",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "tailwind-merge": "^2.4.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.3.0",
@@ -48,6 +54,7 @@
     "lint-staged": "^15.2.7",
     "postcss": "^8",
     "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   },
