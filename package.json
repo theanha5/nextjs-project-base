@@ -10,8 +10,8 @@
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",
     "prettier": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\"",
     "clear-all": "rm -rf node_modules .next out dist build",
-    "re-start": "rm -rf node_modules .next out dist build && yarn install && yarn dev",
-    "re-build": "rm -rf node_modules .next out dist build && yarn install && yarn build",
+    "re-start": "rm -rf node_modules .next out dist build && pnpm install && pnpm dev",
+    "re-build": "rm -rf node_modules .next out dist build && pnpm install && pnpm build",
     "re-build-test": "rm -rf node_modules .next out dist build && npm install && npm run build",
     "prepare": "./prepare-setups.sh",
     "husky-setup": "npx husky install && npx husky add .husky/pre-commit \"pnpm lint-staged\" && npx husky add .husky/commit-msg 'npx --no -- commitlint --edit ${1}'"

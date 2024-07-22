@@ -1,3 +1,10 @@
+/*
+This code is adapted from the blog post: 
+  Source: https://www.flightcontrol.dev/blog/fix-nextjs-routing-to-have-full-type-safety
+  Author: Brandon Bayer
+Refer to it to see examples for usage.
+*/
+
 import {z} from 'zod'
 import {ReadonlyURLSearchParams, useParams as useNextParams, useSearchParams as useNextSearchParams} from "next/navigation"
 import queryString from "query-string"
