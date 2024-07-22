@@ -1,23 +1,38 @@
 This is a [Studihub Web](https://google.com/) project
 
-## Getting Started
+## Prerequisite
+- NodeJS version: refer to `.nvmrc` file
+- Install packages: `pnpm install --frozen-lockfile`
+- Clone file `.env.example` to `.env.local` for local running.
+
+## Dev mode
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
 pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## Production mode
+
+Run the command to build project: 
+
+```bash
+pnpm build
+```
+
+If you built with standalone mode, start app with the command:
+```bash
+cd ./.next/standalone && node server.js 
+```
+
+Otherwise, running start normally:
+```bash
+pnpm start 
+```
 
 ## Learn More
 
