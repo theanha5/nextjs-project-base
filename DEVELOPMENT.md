@@ -10,7 +10,7 @@
 When adding new env variable, you need to do:
 - Update file `.env.example` with your new configs.
 - Update you local env file. i.e: `.env.local`.
-- Adding to `src/.env.js` file: schema & environment your config is belong to.
+- Adding to `src/.env.mjs` file: schema & environment your config is belong to.
 
 ## Router settings
 
